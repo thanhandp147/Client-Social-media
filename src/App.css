@@ -1,0 +1,119 @@
+body {
+    min-width: 1024px;
+}
+body {
+    padding-top: 3.625rem;
+    min-width: 1060px;
+    overflow-x: hidden;
+}
+body, html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: SF Pro Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #1a1a1a;
+    text-align: left;
+    background-color: #f2f2f2;
+}
+#root {
+    min-height: 100%;
+    height: 100%;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.header {
+    z-index: 99;
+    padding: 0 16px;
+    min-width: 0;
+    background-color: #fff;
+    box-shadow: inset 0 -1px 0 #ececec;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translateZ(0);
+    min-width: 1060px;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+ul {
+    padding-inline-start: 0px;
+}
+.ul-style {
+    padding-left: 40px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -.375rem;
+    margin-left: -.375rem;
+}
+.col-aside {
+    max-width: 22.75rem;
+  }
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto {
+    position: relative;
+    width: 100%;
+    padding-right: .375rem;
+    padding-left: .375rem;
+}
+  .aside-wrapper {
+    overflow: auto;
+  }
+  .container {
+      padding-right: 0;
+      padding-left: 0;
+  }
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.h1, h1 {
+    font-size: 2.5rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}h3 {
+    font-size: 1rem;
+}.media-body {
+    flex: 1 1;
+}
+.web-avatar.web-avatar--40 {
+    width: 2.5rem;
+}
+.web-avatar {
+    background-position: 50%;
+}
+.web-avatar {
+    display: block;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    background-size: cover;
+}

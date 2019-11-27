@@ -1,0 +1,35 @@
+#image_resize{
+    width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color:blue;
+  background-position: center;
+  background-size: cover;
+}
+#avatar_overView{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+#image_resize50px{
+  width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color:blue;
+background-position: center;
+background-size: cover;
+}
+#status_online{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color:#59DB2D;
+  box-shadow: 0 1px 6px rgb(89, 219, 45)
+}
+
+#style_chat_div{
+  height: 350px;
+  
+}

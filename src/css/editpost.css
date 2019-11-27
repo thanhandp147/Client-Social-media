@@ -1,0 +1,28 @@
+.wrapperEP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 200px;
+}
+.cardEP {
+    width: 700px;
+    height: 300px;
+}
+
+.card-headerEP {
+    border: none;
+    background-color: #26a69a;
+    color: white;
+}
+
+.card-bodyEP .row .content {
+    margin: 10px;
+}
+.card-bodyEP .row .status-input {
+    width: 20%;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 300px;
+}

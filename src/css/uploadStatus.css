@@ -1,0 +1,141 @@
+.upload-tus {
+    padding: 20px 0 1px 0;
+    background: #fff;
+}
+.card {
+    margin: 0;
+    margin-bottom: 20px;
+    border: none;
+}
+.card-post {
+    width: 662.5px;
+}
+.card-body {
+    padding:10px 18.750px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+}
+.card-body .tab-content .tab-pane .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    color: white;
+}
+.form-group .form-control {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.card .row .col-sm .row {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.card .row .col-sm .avatar{
+    width:50px;
+    height:50px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #FFF
+}
+.card .row .col-sm .row .status-editing {
+    display: flex;
+    justify-content: flex-end;
+    color: #5a7391;
+    font-weight: bold;
+}
+.wrap-content {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.wrap-content .row {
+    margin: 0;
+}
+.wrap-content .row button {
+    margin-top: 10px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+.wrap-content span.content{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 20px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.palete {
+    margin: 50 15;
+    display: contents;
+}
+.palette .first {
+    width: auto;
+    height: 82.781px;
+    background: #ffd369;
+}
+
+.palette .second {
+    width: auto;
+    height: 56.586px;
+    background: #e26241;
+}
+
+.palette .third {
+    width: auto;
+    height: 36.248px;
+    background: #940a37;
+}
+
+.palette .fourth {
+    width: auto;
+    height: 21.052px;
+    background: #5b0909;
+}
+.status-button {
+    display: flex;
+    padding: 0px 10px;
+    border: 1.5px solid #93a3b5!important;
+    border-radius: 15px;
+    background: none;
+    border: none;
+    color: #93a3b5;
+    font-size: 13px;
+    margin: 4px 30px;
+    align-items:center;
+    justify-content: center;
+    height: 30px;
+    width: auto;
+}
+.status-input {
+    height: 30px!important;
+    width: auto;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #19665D;
+}
+
+.col-sm .row {
+    margin: 0;
+}
+.col-sm .row div input {
+    width: 100%;
+}
+.row {
+    margin: 0;
+    
+}
+.container-fluid {
+  margin-top: 20px;
+}
